@@ -1,14 +1,25 @@
-# Money-Mules-Detection
-# Problem Statement
+# Money Mule Detection
 
-Bank A enables customers to open savings accounts entirely online, enhancing customer convenience and experience. However, this online process has been exploited by fraudsters (referred to as mules) who open accounts solely to deceive others. These mules use social engineering to convince unsuspecting individuals to transfer money to their Bank A accounts.
+This repository contains the **Convolve Epoch 2 Submission**, where we implement **classification models** for money mules detection using **machine learning and deep learning** techniques. The project applies **feature selection, dimensionality reduction, ensemble learning, and neural networks** to optimize accuracy.
 
-To combat this misuse, Bank A aims to develop an automated transaction monitoring framework using Machine Learning algorithms. The objective is to proactively detect and prevent fraudulent activities in customers' savings accounts.The objective of the project is to use machine learning algorithms to predict the probability that a given account is a mule based on various account-level attributes, demographic information, transaction history, and other relevant factors.
+---
 
-**Overview of the Approach:**
-1. Understanding Data and EDA (Exploratory Data Analysis)
-2. Preprocessing
-3. Feature selection
-4. Dimensionality Reduction
-5. Model Selection and Training
-6. Prediction on the Validation Data
+## 🚀 Features  
+
+- **Exploratory Data Analysis (EDA)**: Insights into the dataset structure and distribution.  
+- **Feature Selection**: Implemented **Mutual Information** and **PCA** to extract the most relevant features.  
+- **Data Preprocessing**: Applied standardization, encoding, and class balancing (SMOTE & Undersampling).  
+- **Machine Learning Models**: Trained **XGBoost, Random Forest, SVM, and KNN** classifiers.  
+- **Deep Learning Model**: Built a **Keras-based neural network** for classification.  
+- **Performance Evaluation**: Used **ROC-AUC, Precision-Recall, and Confusion Matrices** for analysis.  
+
+---
+
+## 📂 Directory Structure  
+
+root/ 
+|── Convolve_Epoch2_Submission.ipynb # Main notebook with ML & DL implementation 
+├── data/ # Folder containing dataset 
+├── models/ # Trained models and weights 
+├── results/ # Performance visualizations 
+└── README.md # Project documentation
