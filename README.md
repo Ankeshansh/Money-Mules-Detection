@@ -15,11 +15,43 @@ This repository contains the **Convolve Epoch 2 Submission**, where we implement
 
 ---
 
-## 📂 Directory Structure  
+## 🔍 Data Preprocessing  
 
-root/ 
-|── Convolve_Epoch2_Submission.ipynb # Main notebook with ML & DL implementation 
-├── data/ # Folder containing dataset 
-├── models/ # Trained models and weights 
-├── results/ # Performance visualizations 
-└── README.md # Project documentation
+1. **Loaded Data**: Read dataset from `Dev_data_to_be_shared.xlsx`.  
+2. **Feature Engineering**: Applied **PCA and Mutual Information** for dimensionality reduction.  
+3. **Data Normalization**: Standardized numerical features.  
+4. **Class Balancing**: Used **SMOTE and Random Undersampling** for handling imbalanced data.  
+
+---
+
+## 🏗️ Model Implementation  
+
+### **1️⃣ Machine Learning Models**  
+- **XGBoost Classifier**  
+- **Random Forest Classifier**  
+- **Support Vector Machine (SVM)**  
+- **K-Nearest Neighbors (KNN)**  
+- **Stratified K-Fold Cross Validation**  
+
+### **2️⃣ Deep Learning Model (Keras)**  
+- **Feedforward Neural Network**  
+- **Dense & Dropout Layers**  
+- **Adam Optimizer & Categorical Cross-Entropy Loss**  
+
+---
+
+## 📊 Results  
+
+### **Performance Metrics**  
+- **Accuracy Score**  
+- **ROC-AUC Curve**  
+- **Confusion Matrix**  
+- **Precision-Recall Analysis**  
+
+Sample Visualization:
+- **Feature Importance Graph**  
+- **PCA Component Variance Plot**  
+- **ROC-AUC Curve**  
+
+---
+
