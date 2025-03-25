@@ -26,14 +26,14 @@ This repository contains the **Convolve Epoch 2 Submission**, where we implement
 
 ##  Model Implementation  
 
-### ** Machine Learning Models**  
+### **Machine Learning Models**  
 - **XGBoost Classifier**  
 - **Random Forest Classifier**  
 - **Support Vector Machine (SVM)**  
 - **K-Nearest Neighbors (KNN)**  
 - **Stratified K-Fold Cross Validation**  
 
-### ** Deep Learning Model (Keras)**  
+### **Deep Learning Model (Keras)**  
 - **Feedforward Neural Network**  
 - **Dense & Dropout Layers**  
 - **Adam Optimizer & Categorical Cross-Entropy Loss**  
