@@ -4,7 +4,7 @@ This repository contains the **Convolve Epoch 2 Submission**, where we implement
 
 ---
 
-## 🚀 Features  
+##  Features  
 
 - **Exploratory Data Analysis (EDA)**: Insights into the dataset structure and distribution.  
 - **Feature Selection**: Implemented **Mutual Information** and **PCA** to extract the most relevant features.  
@@ -15,7 +15,7 @@ This repository contains the **Convolve Epoch 2 Submission**, where we implement
 
 ---
 
-## 🔍 Data Preprocessing  
+##  Data Preprocessing  
 
 1. **Loaded Data**: Read dataset from `Dev_data_to_be_shared.xlsx`.  
 2. **Feature Engineering**: Applied **PCA and Mutual Information** for dimensionality reduction.  
@@ -24,23 +24,23 @@ This repository contains the **Convolve Epoch 2 Submission**, where we implement
 
 ---
 
-## 🏗️ Model Implementation  
+##  Model Implementation  
 
-### **1️⃣ Machine Learning Models**  
+### ** Machine Learning Models**  
 - **XGBoost Classifier**  
 - **Random Forest Classifier**  
 - **Support Vector Machine (SVM)**  
 - **K-Nearest Neighbors (KNN)**  
 - **Stratified K-Fold Cross Validation**  
 
-### **2️⃣ Deep Learning Model (Keras)**  
+### ** Deep Learning Model (Keras)**  
 - **Feedforward Neural Network**  
 - **Dense & Dropout Layers**  
 - **Adam Optimizer & Categorical Cross-Entropy Loss**  
 
 ---
 
-## 📊 Results  
+##  Results  
 
 ### **Performance Metrics**  
 - **Accuracy Score**  
